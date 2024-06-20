@@ -23,7 +23,7 @@ class _sonucState extends State<sonuc> {
     return  Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: Text("Ana Sayfa",style: TextStyle(color: Colors.white),),
+          title: Text("Sonuç",style: TextStyle(color: Colors.white),),
         ),
         body: Center(
           child: Column(

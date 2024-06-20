@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:uygulama_yapisi/second.dart';
 import 'package:uygulama_yapisi/tahmin.dart';
 
 void main() {
@@ -34,8 +33,7 @@ class Anasayfa extends StatefulWidget {
 class _AnasayfaState extends State<Anasayfa> {
 
 
-  var tfcontroller = TextEditingController();
-  var veri = "";
+
 
 
 
@@ -76,7 +74,7 @@ class _AnasayfaState extends State<Anasayfa> {
           ],
         ),
 
-      ) // This trailing comma makes auto-formatting nicer for build methods.
+      )
     );
   }
 }
